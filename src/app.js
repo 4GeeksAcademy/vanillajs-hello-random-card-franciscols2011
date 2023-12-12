@@ -39,4 +39,16 @@ window.onload = function() {
   boton.addEventListener("click", function() {
     cartasAleatorias();
   });
+
+  let tiempo = document.getElementById("tiempo");
+  let contador = 10;
+
+  setInterval(function() {
+    contador--;
+    if (contador === 0) {
+      contador = 10;
+      cartasAleatorias();
+    }
+    tiempo.innerHTML = "Carta nueva en: </br> 00:0" + contador + "s";
+  }, 1000);
 };

@@ -35,5 +35,6 @@ body {
 }
 
 #tiempo {
+  background-color: rgb(56, 150, 228);
   font-size: 80px;
 }
