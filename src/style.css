@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+html {
+  height: 100%;
+}
+body {
+  background: green;
+  height: 100%;
+}
+.carta {
+  display: flex;
+  background-color: white;
+  margin: auto;
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+
+.rojo {
+  color: red;
+}
+
+.simbolo_carta {
+  font-size: 60px;
+}
+
+#elementoAbajo {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
