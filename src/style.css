@@ -33,3 +33,7 @@ body {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
 }
+
+#tiempo {
+  font-size: 80px;
+}
